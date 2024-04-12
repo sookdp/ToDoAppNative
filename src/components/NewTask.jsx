@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {View, TextInput, Button, Image, TouchableOpacity} from 'react-native';
-import EmojiPicker from 'react-native-emoji-picker';
+import EmojiPicker from 'rn-emoji-picker';
 
 export default function NewTask({onAdd}) {
   const [inputStr, setInputStr] = useState('');

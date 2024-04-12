@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import {View} from 'react-native';
-import ProjectsSideBar from './components/ProjectsSideBar.jsx';
-import NewProject from './components/NewProject.jsx';
-import NoProjectSelected from './components/NoProjectSelected.jsx';
-import SelectedProject from './components/SelectedProject.jsx';
-import {storeData, getData} from './components/Storage.jsx';
+import ProjectsSideBar from './src/components/ProjectsSideBar.jsx';
+import NewProject from './src/components/NewProject.jsx';
+import NoProjectSelected from './src/components/NoProjectSelected.jsx';
+import SelectedProject from './src/components/SelectedProject.jsx';
+import {storeData, getData} from './src/components/Storage.jsx';
 
 function App() {
   const [projectsState, setProjectsState] = useState({
